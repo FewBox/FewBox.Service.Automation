@@ -75,7 +75,7 @@ namespace FewBox.Service.Automation
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
             app.UseStaticFiles();
             app.UseSwagger();
